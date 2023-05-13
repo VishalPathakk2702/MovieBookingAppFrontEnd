@@ -1,0 +1,17 @@
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited { 
+
+    background-color: #8064A2 ; 
+
+} 
+
+.navbar-brand {
+    width:50px;
+    font-size: 24px;
+  }
+  .navbar-brand img {
+    height: 50px;
+    /* put value of image height as your need */
+    /* float: left; */
+    margin-right: 0px;
+    margin-left: 10px;
+  }

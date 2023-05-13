@@ -1,0 +1,30 @@
+<app-movielist-navbar></app-movielist-navbar>
+
+<p>movielist works!</p>
+
+<div class="container">
+    <div class="row g-3">
+        <div class="col-md-4 col-6" *ngFor="let movie of movies">
+            
+                <div class="card" style="width:18rem;">
+                    <img class="card-img-top" src={{movie.url}}  width="500" height="300">
+
+                    <div class="card-body">
+                        <h5 class="card-title">{{movie.movieName}}</h5>
+                        <p class="card-text">Movie is good hii</p>
+
+                        <a href={{movie.trailer}}><button class="btn btn-danger"   style='margin-right:16px'>Watch Trailer</button></a>
+                        <a href={{movie.description}}><button class="btn btn-warning" style='margin-bottom: 8px;'>Description</button></a>
+                        <button  class="btn btn-success" style='margin-right:16px' (click)="BookTicketSubmit()">Book Ticket</button>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+    </div>
+
+</div>
